@@ -14,16 +14,16 @@ public class Exercício3 {
 		float Descontos;
 		float SalárioLiquido;
 		
-		System.out.print("Digite o Salário Bruto: ");
+		System.out.print("Digite o Salário Bruto:");
 		SalárioBruto = leia.nextFloat();
 		
-		System.out.print("Digite o Adicional Noturno: ");
+		System.out.print("Digite o Adicional Noturno:");
 		AdicionalNoturno = leia.nextFloat();
 		
-		System.out.print("Digite as Horas Extras: ");
+		System.out.print("Digite as Horas Extras:");
 		HorasExtras = leia.nextFloat();
 
-		System.out.print("Digite os Descontos: ");
+		System.out.print("Digite os Descontos:");
 		Descontos = leia.nextFloat();
 		
 		SalárioLiquido = SalárioBruto + AdicionalNoturno + (HorasExtras * 5) - Descontos;
