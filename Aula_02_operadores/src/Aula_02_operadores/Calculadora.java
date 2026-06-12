@@ -24,9 +24,11 @@ public class Calculadora {
         System.out.printf("\n %.2f / %.2f = %.2f", numero1, numero2, numero1 / numero2);
         System.out.printf("\n %.2f ^ %.2f = %.2f", numero1, numero2, Math.pow(numero1, numero2));
         System.out.printf("\n Raiz Quadrada %.2f = %.2f", numero1, Math.sqrt(numero1));
-        
-        		
+             		
         leia.close();
+        
 	}
+
+
 
 }

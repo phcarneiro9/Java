@@ -12,15 +12,17 @@ public class Exercício1 {
 		float Abono;
 		float novoSalário;
 		
-		System.out.println("Digite o salário:");
+		System.out.print("Digite o salário:");
 		Salário = leia.nextFloat();
 		
-		System.out.println("Digite o abono:");
+		System.out.print("Digite o abono:");
 		Abono = leia.nextFloat();
 		
 		novoSalário = Salário + Abono;
 
-        System.out.println("Novo salário: " + novoSalário);					
+        System.out.print("Novo salário: " + novoSalário);
+        
+        leia.close();
 
 	}
 
