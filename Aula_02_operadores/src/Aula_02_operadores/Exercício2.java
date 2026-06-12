@@ -17,13 +17,13 @@ public class Exercício2 {
 		System.out.println("Digite a primeira nota:");
 		nota1 = leia.nextFloat();
 		
-		System.out.println("DDigite a segunda nota:");
+		System.out.println("Digite a segunda nota:");
 		nota2 = leia.nextFloat();
 		
 		System.out.println("Digite a terceira nota:");
 		nota3 = leia.nextFloat();
 
-		System.out.println("DDigite a quarta nota:");
+		System.out.println("Digite a quarta nota:");
 		nota4 = leia.nextFloat();
 		
 		
