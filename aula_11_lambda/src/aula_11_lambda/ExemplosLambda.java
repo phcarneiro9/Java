@@ -16,7 +16,7 @@ public class ExemplosLambda {
 	    numeros.forEach(numero ->{
 	        System.out.println(numero);
 	        System.out.println(numero + 1);	    
-	    });
+	        });
 	    
 	    numeros.forEach(numero ->{
 		    if (numero % 2 ==0)
